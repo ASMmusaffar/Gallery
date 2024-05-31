@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Project 04 | by Mohammed Musaffar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GALLERY</h1>
+        <div class="search-container">
+            <select id="category">
+                <option value="animal">animal</option>
+                <option value="nature">nature</option>
+                <option value="technology">technology</option>
+                <option value="medical">medical</option>
+                <option value="computer">computer</option>
+                <option value="car">car</option>
+                <option value="flight">flight</option>
+                <option value="city">city</option>
+            </select>
+            <button onclick="searchImages()">Search</button>
+        </div>
+        <div id="gallery" class="gallery-container"></div>
+    </div>
+    <div id="attrib">
+        Gallery | Project 04 | by Mohammed Musaffar
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
